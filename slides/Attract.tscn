@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://bq7ay0advlk8k"]
+
+[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_o1kc0"]
+
+[node name="Attract" type="Control" unique_id=1012020998]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_o1kc0")
+metadata/_custom_type_script = "uid://dru3usokwlhd3"
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=600971982]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 6.0
+offset_right = 1291.0
+offset_bottom = 1030.0
+color = Color(0.05490196, 0.38431373, 0, 1)
+
+[node name="Label" type="Label" parent="ColorRect" unique_id=430544535]
+layout_mode = 0
+offset_left = 45.0
+offset_top = 483.0
+offset_right = 1255.0
+offset_bottom = 683.0
+theme_override_font_sizes/font_size = 40
+text = "Welcome to the Test Pinball"
+horizontal_alignment = 1
+vertical_alignment = 1
